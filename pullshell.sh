@@ -1,12 +1,17 @@
 #!/bin/bash
 
 
-echo "number create" 
+echo "Lottery number Generator" 
 
-sleep 2
+# sleep 2
 
 echo $RANDOM
 
-sleep 1
+# sleep 1
 
-echo (($RANDOM % 50 + 1))
+echo $(($RANDOM % 48 + 1))
+
+echo $[ $RANDOM % 40 + 10]
+
+echo $[ $RANDOM % 45 + 5]
+
