@@ -5,7 +5,7 @@ echo "Lottery number Generator"
 
 # sleep 2
 
-echo $RANDOM
+# echo $RANDOM
 
 # sleep 1
 
@@ -21,5 +21,9 @@ echo $[ $RANDOM % 20 + 20]
 echo Powerball Number 
 sleep 2
 echo -e "\e[0;31m$[ $RANDOM % 10 + 30]\e[0m"
+
+sleep 2
+echo Goodluck
+
 
 
