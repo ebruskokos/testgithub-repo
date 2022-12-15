@@ -20,5 +20,6 @@ sleep 2
 echo $[ $RANDOM % 20 + 20]
 echo Powerball Number 
 sleep 2
-echo $[ $RANDOM % 10 + 30]
+echo -e "\e[0;31m$[ $RANDOM % 10 + 30]\e[0m"
+
 
