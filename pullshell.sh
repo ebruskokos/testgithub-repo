@@ -1,7 +1,12 @@
 #!/bin/bash
 
 
-echo "Hello world" 
+echo "number create" 
 
 sleep 2
 
+echo $RANDOM
+
+sleep 1
+
+echo (($RANDOM % 50 + 1))
