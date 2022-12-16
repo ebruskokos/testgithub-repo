@@ -27,12 +27,12 @@ echo -e "\e[0;32m$[ $RANDOM % 10 + 30]\e[0m" #add color to code!!!! to green 32m
 
 sleep 1
 echo Goodluck
-for i in seq 1 10
-min =1
-max=49
-number=$(expr $min + $RANDOM % $max)
+# for i in seq 1 10
+# min =1
+# max=49
+# number=$(expr $min + $RANDOM % $max)
 
-echo $number
+# echo $number
 
 
 
