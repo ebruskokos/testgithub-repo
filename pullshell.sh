@@ -28,7 +28,7 @@ echo -e "\e[0;32m$[ $RANDOM % 10 + 30]\e[0m" #add color to code!!!! to green 32m
 sleep 1
 echo Goodluck
 
-echo ..........
+echo ........
 
 
 
