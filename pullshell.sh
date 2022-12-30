@@ -4,7 +4,7 @@
 # echo "Lottery number Generator" 
 
 
-
+#add a word
 # # sleep 2
 
 # # echo $RANDOM
