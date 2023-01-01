@@ -4,9 +4,14 @@
 # echo "Lottery number Generator" 
 
 
-
+#add a word
 # # sleep 2
 
+<<<<<<< HEAD
+# # sleep 2
+
+=======
+>>>>>>> 3302de000a549ddcbf91140553565fd2a4eaa4f1
 # # echo $RANDOM
 
 # # sleep 1
