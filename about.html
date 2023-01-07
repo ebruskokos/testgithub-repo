@@ -8,10 +8,30 @@
 			font-family: Arial;
 			font-size: 14px;
 			font-style: italic;
+			
 		}
 	</style>
 </head>
 <body>
+	 <button id="colorful-button">Home</button>
+    <script>
+      const button = document.getElementById('colorful-button');
+
+      // Generate a random color for the button
+      function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      // Change the button's color when it's clicked
+      button.addEventListener('click', function() {
+        button.style.backgroundColor = getRandomColor();
+      });
+    </script>
 	<h1><center>About Me</center></h1>
 	<p><center>I was born in Warri, Nigeria, and I am the second child in a family of four siblings. I am the second to last child in a family of seven. Both of my parents are businesspeople and they instilled in me the importance of hard work and determination from a young age. I have always been a curious and ambitious person, eager to learn and try new things. I did well in school and was a top student. After completing my secondary education, I moved to Romania where I studied Naval Transportation and Marine Engineering at Constanta Marine University.</center></p>
 	<p><center>I started my IT career as a website designer (HTML) and Linux/Unix System Engineer at UiPath in Bucuresti, Romania. Later, I began freelancing with Accenture in Bucuresti as a DevOps & AWS Engineer. I moved to the United States and am now a citizen. I have previously worked on different projects with different companies, such as BASF Corporation. Currently, I am working as a DevOps Infrastructure Engineer at Graphic Packaging International.</center></p>
